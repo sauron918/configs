@@ -1,0 +1,361 @@
+{
+  "title": "Functional keys as media keys for non-apple keyboards w/ some app exceptions",
+  "maintainers": [
+    "sauron918"
+  ],
+  "rules": [
+    {
+      "description": "FN keys as standard function keys in apps: PHPStorm, Sublime, iTerm2 etc",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f1",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f1"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "com.jetbrains.PhpStorm",
+                "com.sublimetext.4",
+                "com.microsoft.VSCode",
+                "com.microsoft.visual-studio",
+                "com.googlecode.iterm2",
+                "com.eltima.cmd1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f2",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f2"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "com.jetbrains.PhpStorm",
+                "com.sublimetext.4",
+                "com.microsoft.VSCode",
+                "com.microsoft.visual-studio",
+                "com.googlecode.iterm2",
+                "com.eltima.cmd1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f3",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f3"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "com.jetbrains.PhpStorm",
+                "com.sublimetext.4",
+                "com.microsoft.VSCode",
+                "com.microsoft.visual-studio",
+                "com.googlecode.iterm2",
+                "com.eltima.cmd1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f4",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f4"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "com.jetbrains.PhpStorm",
+                "com.sublimetext.4",
+                "com.microsoft.VSCode",
+                "com.microsoft.visual-studio",
+                "com.googlecode.iterm2",
+                "com.eltima.cmd1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f5",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f5"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "com.jetbrains.PhpStorm",
+                "com.sublimetext.4",
+                "com.microsoft.VSCode",
+                "com.microsoft.visual-studio",
+                "com.googlecode.iterm2",
+                "com.eltima.cmd1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f6",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f6"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "com.jetbrains.PhpStorm",
+                "com.sublimetext.4",
+                "com.microsoft.VSCode",
+                "com.microsoft.visual-studio",
+                "com.googlecode.iterm2",
+                "com.eltima.cmd1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f7",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f7"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "com.jetbrains.PhpStorm",
+                "com.sublimetext.4",
+                "com.microsoft.VSCode",
+                "com.microsoft.visual-studio",
+                "com.googlecode.iterm2",
+                "com.eltima.cmd1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f8",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f8"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "com.jetbrains.PhpStorm",
+                "com.sublimetext.4",
+                "com.microsoft.VSCode",
+                "com.microsoft.visual-studio",
+                "com.googlecode.iterm2",
+                "com.eltima.cmd1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f9",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f9"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "com.jetbrains.PhpStorm",
+                "com.sublimetext.4",
+                "com.microsoft.VSCode",
+                "com.microsoft.visual-studio",
+                "com.googlecode.iterm2",
+                "com.eltima.cmd1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f10",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f10"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "com.jetbrains.PhpStorm",
+                "com.sublimetext.4",
+                "com.microsoft.VSCode",
+                "com.microsoft.visual-studio",
+                "com.googlecode.iterm2",
+                "com.eltima.cmd1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f11",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f11"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "com.jetbrains.PhpStorm",
+                "com.sublimetext.4",
+                "com.microsoft.VSCode",
+                "com.microsoft.visual-studio",
+                "com.googlecode.iterm2",
+                "com.eltima.cmd1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f12",
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f12"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+                "com.jetbrains.PhpStorm",
+                "com.sublimetext.4",
+                "com.microsoft.VSCode",
+                "com.microsoft.visual-studio",
+                "com.googlecode.iterm2",
+                "com.eltima.cmd1"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
